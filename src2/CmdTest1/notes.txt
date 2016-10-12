@@ -1,0 +1,9 @@
+From the command line
+"dotnet new" --> creates a program.cs file and project.json file
+"dotnet restore" --> uses NuGet to restore packages. Gens project.lock.json file.
+"dotnet build" --> compiles code
+
+FILE OVERVIEW
+project.json --> project metadata, compilation information, and dependencies
+project.lock.json --> auto-generated file of dependencies pulled in from NuGet
+Program.cs --> c# source file
